@@ -1,0 +1,4 @@
+mkdir -p test/third_party
+ln -s /usr/share/nodejs/esprima/src/esprima.js test/third_party/esprima.js
+mocha --require @babel/register test
+rm -rf test/third_party
