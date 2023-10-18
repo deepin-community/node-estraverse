@@ -1,3 +1,12 @@
+node-estraverse (5.3.0+ds+~5.1.1-1) unstable; urgency=medium
+
+  * Team upload
+  * Ignore auto_build (Closes: #1005489)
+  * Embed typescript declarations
+  * New upstream version 5.3.0+ds+~5.1.1
+
+ -- Yadd <yadd@debian.org>  Sun, 13 Feb 2022 08:42:55 +0100
+
 node-estraverse (5.2.0+ds-1) unstable; urgency=medium
 
   * Team upload
