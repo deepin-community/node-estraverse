@@ -3,9 +3,9 @@ Section: javascript
 Priority: optional
 Maintainer: Debian Javascript Maintainers <pkg-javascript-devel@lists.alioth.debian.org>
 Uploaders: Pirate Praveen <praveen@debian.org>
-Build-Depends: debhelper-compat (= 13)
+Build-Depends: chai <!nocheck>
+ , debhelper-compat (= 13)
  , dh-sequence-nodejs
- , chai <!nocheck>
  , mocha <!nocheck>
  , node-babel7 <!nocheck>
  , node-espree <!nocheck>
@@ -20,6 +20,7 @@ Rules-Requires-Root: no
 Package: node-estraverse
 Architecture: all
 Depends: ${misc:Depends}
+Provides: ${nodejs:Provides}
 Multi-Arch: foreign
 Description: ECMAScript JS AST traversal functions
  Estraverse is ECMAScript traversal functions from esmangle project
